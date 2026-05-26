@@ -5,6 +5,8 @@ description = "管理 Claude Code 模型配置，支持多模型切换"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
+[tool.setuptools]
+py-modules = ["main"]
 
 [project.scripts]
 cc-switch = "main:main"
